@@ -1,0 +1,15 @@
+#header-timer .bg-wrap {
+    background-color: #000;
+}
+
+#header-timer .bg {
+    background-image: url('../images/uploaded/2774/2774-websmith__whey-protein-powder-shaker-with-protein-cocktail-2021-09-02-15-23-06-utc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:0.85;
+}
+
+#nav-icon-menu .bg-wrap {
+	background: #ffac00;
+}
