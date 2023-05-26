@@ -1,21 +1,76 @@
 "use strict";
+
 window.addEventListener('load', function() {
-	AOS.init({
-		easing: 'ease-in-out-sine'
-	});
+
+
+
+//------------------------------------------------------------------------
+//						OWL CAROUSEL OPTIONS
+//------------------------------------------------------------------------
+
+$('.carousel-single').owlCarousel({
+    loop: false,
+    margin: 0,
+    nav: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoHeight: false,
+    items: 1,
+    dots: true,
+    navText: ['',''],
+    rewind: true
 });
 
-window.addEventListener('load', function() {
 
-//start spr-countdown
-var $header_timer_countdown = $('#header-timer-countdown');
-$header_timer_countdown.countdown('2023/06/10 23:59:59', function (event) {
-    $header_timer_countdown.find('.days').html(event.strftime('%D'));
-    $header_timer_countdown.find('.hours').html(event.strftime('%H'));
-    $header_timer_countdown.find('.minutes').html(event.strftime('%M'));
-    $header_timer_countdown.find('.seconds').html(event.strftime('%S'));
-}).on('finish.countdown', function () {
-}//end finish.countdown
-);//end spr-countdown
+
+
+
+
+//------------------------------------------------------------------------
+//						OWL CAROUSEL OPTIONS
+//------------------------------------------------------------------------
+
+$('.carousel-5item-padx2').owlCarousel({
+    loop: false,
+    margin: 60,
+    nav: true,
+    navText: ['',''],
+    dotsEach: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    rewind: true,
+    startPosition:1,
+    responsive: {
+        0: {
+            items: 1,
+            stagePadding: 30
+        },
+        400: {
+            items: 2,
+            stagePadding: 60
+        },
+        700: {
+            items: 3,
+            stagePadding: 60
+        },
+        1200: {
+            items: 4,
+            stagePadding: 60
+        },
+        1600: {
+            items: 5,
+            stagePadding: 60
+        }
+    }
+
+});
+
+
+
+
+
+
+
+
 
 });

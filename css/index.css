@@ -1,15 +1,72 @@
-#header-timer .bg-wrap {
-    background-color: #000;
+#sep-bottom-7 .bg-wrap {
+    background-color: rgba(255, 255, 255, 0);
 }
 
-#header-timer .bg {
-    background-image: url('../images/uploaded/2774/2774-websmith__whey-protein-powder-shaker-with-protein-cocktail-2021-09-02-15-23-06-utc.jpg');
+#sep-bottom-7 .bg {
+    background-image: url('../images/bg-fog-bottom.png');
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: auto 100px;
+}
+#sep-top-7 .bg-wrap {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#sep-top-7 .bg {
+    background-image: url('../images/bg-fog-top.png');
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: auto 100px;
+}
+#header-text-6 .bg-wrap {
+    background: #68bacd;
+}
+
+#header-text-6 .bg {
+    background-image: url('../images/item-nature-3.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
-    opacity:0.85;
+    opacity:0.1;
+}
+#clients-carousel .bg-wrap {
+	background: #68bacd;
+}#sep-bottom-9 .bg-wrap {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0)),to(rgba(255,255,255,1)));
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); 
+}
+#header-text-6--0 .bg-wrap {
+    background: #ffb238;
 }
 
-#nav-icon-menu .bg-wrap {
-	background: #ffac00;
+#header-text-6--0 .bg {
+    background-image: url('../images/bg-65.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.1;
+}
+
+#action-text-btn-2 .bg-wrap {
+	background: linear-gradient(to bottom, #fabc5c, #6bc96d);
+}#header-text-6--1 .bg-wrap {
+    background: #6bc96d;
+}
+
+#header-text-6--1 .bg {
+    background-image: url('../images/uploaded/2774/2774-websmith__PHOTO-2023-05-23-15-47-38.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.1;
+}#header-text-6--2 .bg-wrap {
+    background: #ee5b4f;
+}
+
+#header-text-6--2 .bg {
+    background-image: url('../images/bg-46.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.1;
 }
